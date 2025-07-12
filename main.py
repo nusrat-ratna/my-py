@@ -13,6 +13,3 @@ xinfo = {
 },
     "year":"1221"
 }
-xinfo["year"]="43"
-xinfo["ratna"]["class"]=10
-print(xinfo["ratna"]["class"])
