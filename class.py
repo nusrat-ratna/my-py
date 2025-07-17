@@ -4,9 +4,18 @@ class ratna:
     roll = "45"
     year = "2023"
 
-class nus(ratna):
+class me2:
+    phone = "ihone3"
+    land = "34 katha"
+    phone2 = "walton"
+
+class me:
+    phone = "ihone"
+    land = "34 katha"
+
+class nus(ratna, me, me2 ):
     Gari = "43 la"
     man = "yes"
 
-g = nus()
-print(g.year)
+
+print(nus.land)
